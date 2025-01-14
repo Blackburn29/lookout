@@ -48,7 +48,7 @@ class ConnectionManager {
 	async isOnline() {
 		const onlineCheckMethods = [
 			{
-				// Perform an actual HTTPS request, similar to loading the Teams app.
+				// Perform an actual HTTPS request, similar to loading the Outlook app.
 				method: 'https',
 				tries: 10,
 				networkTest: async () => { 

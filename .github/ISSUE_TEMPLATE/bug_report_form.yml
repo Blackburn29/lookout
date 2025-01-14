@@ -2,9 +2,9 @@ name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["IsmaelMartinez/teams-for-linux"]
+projects: ["blackburn29/lookout"]
 assignees:
-  - ismaelmartinez
+  - blackburn29
 body:
   - type: dropdown
     id: can-reproduce-pwa
@@ -80,7 +80,7 @@ body:
       description: "When possible, please run the application from the terminal using `--webDebug` and try to reproduce the error."
       value: |
         ```bash
-        teams-for-linux --webDebug --logConfig='{}'
+        lookout --webDebug --logConfig='{}'
         ```
       render: markdown
   - type: textarea

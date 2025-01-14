@@ -1,7 +1,7 @@
 const { shell } = require('electron');
 
 exports = module.exports = (Menus) => ({
-	label: 'Teams for Linux',
+	label: 'Outlook for Linux',
 	submenu: [
 		{
 			label: 'Open',
@@ -147,15 +147,15 @@ function getHelpMenu () {
 		submenu: [
 			{
 				label: 'Online Documentation',
-				click: () => shell.openExternal('https://support.office.com/en-us/teams'),
+				click: () => shell.openExternal('https://support.office.com/en-us/outlook'),
 			},
 			{
 				label: 'Github Project',
-				click: () => shell.openExternal('https://github.com/IsmaelMartinez/teams-for-linux'),
+				click: () => shell.openExternal('https://github.com/blackburn29/lookout'),
 			},
 			{
-				label: 'Microsoft Teams Support',
-				click:() => shell.openExternal('https://answers.microsoft.com/en-us/msteams/forum'),
+				label: 'Microsoft Outlook Support',
+				click:() => shell.openExternal('https://answers.microsoft.com/en-us/msoutlook/forum'),
 			},
 		],
 	};

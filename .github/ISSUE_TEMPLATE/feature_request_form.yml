@@ -2,9 +2,9 @@ name: Feature Request
 description: Suggest an idea for this project
 title: "[Feat]: "
 labels: ["enhancement"]
-projects: ["IsmaelMartinez/teams-for-linux"]
+projects: ["blackburn29/lookout"]
 assignees:
-  - ismaelmartinez
+  - blackburn29
 body:
   - type: input
     id: feature-description
